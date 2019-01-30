@@ -1,0 +1,100 @@
+﻿*
+{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body
+{
+    overflow: hidden;
+    background: #000;
+}
+
+#swordsMan
+{
+    width: 36px;
+    height: 42px;
+    position: absolute;
+    visibility: visible;
+    left: 500px;
+    top: 4700px;
+}
+#swordsMan p.walk
+{
+    width: 46px;
+    height: 51px;
+    position: absolute;
+    left: -6px;
+    top: -10px;
+    background: no-repeat url(../images/jian/jian.png);
+}
+#swordsMan p.attack
+{
+    width: 60px;
+    height: 63px;
+    position: absolute;
+    left: -15px;
+    top: -14px;
+    background: no-repeat url(../images/jian/jian_melee.png);
+}
+#swordsMan p.dead
+{
+    width: 45px;
+    height: 63px;
+    position: absolute;
+    left: -10px;
+    top: -14px;
+    background: no-repeat url(../images/jian/jian_dead.png);
+}
+#map
+{
+    background: url(../images/map/map.jpg) repeat-y;
+    height: 5000px;
+}
+.flbg
+{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background: url(../images/map/hl.png) no-repeat;
+    width:157px;
+    height:80px;
+     z-index:10;
+    }
+.blood
+{
+    position: fixed;
+    left: 30px;
+    bottom: 2px;
+    width: 45px;
+    height: 70px;
+    z-index:9;
+}
+.blood span
+{
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    background: #DA1010;
+    width:45px;
+    height: 71px;
+}
+.magic
+{
+    position: fixed;
+    left: 80px;
+    bottom: 2px;
+    width: 45px;
+    height: 70px;
+    z-index:9;
+}
+.magic span
+{
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    background: #0055E7;
+    width:45px;
+    height: 71px;
+}

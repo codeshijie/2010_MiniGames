@@ -1,0 +1,298 @@
+﻿.NpcMutou
+{
+    width: 36px;
+    height: 42px;
+    position: absolute;
+    visibility: visible;
+    left: 500px;
+    top: 4700px;
+}
+.NpcMutou p.walk
+{
+    width: 46px;
+    height: 51px;
+    position: absolute;
+    left: -6px;
+    top: -10px;
+    background: no-repeat url(../images/monster/木兵/木兵.png);
+}
+.NpcMutou p.attack
+{
+    width: 60px;
+    height: 63px;
+    position: absolute;
+    left: -15px;
+    top: -14px;
+    background: no-repeat url(../images/monster/木兵/木兵_melee.png);
+}
+.NpcMutou p.dead
+{
+    width: 45px;
+    height: 63px;
+    position: absolute;
+    left: -10px;
+    top: -14px;
+    background: no-repeat url(../images/monster/木兵/木兵_dead.png);
+}
+
+.NpcQingbubing
+{
+    width: 36px;
+    height: 42px;
+    position: absolute;
+    visibility: visible;
+    left: 500px;
+    top: 4700px;
+}
+.NpcQingbubing p.walk
+{
+    width: 46px;
+    height: 51px;
+    position: absolute;
+    left: -6px;
+    top: -10px;
+    background: no-repeat url(../images/monster/轻步兵/轻步兵.png);
+}
+.NpcQingbubing p.attack
+{
+    width: 60px;
+    height: 63px;
+    position: absolute;
+    left: -15px;
+    top: -14px;
+    background: no-repeat url(../images/monster/轻步兵/轻步兵_melee.png);
+}
+
+.NpcQingbubing p.dead
+{
+    width: 45px;
+    height: 63px;
+    position: absolute;
+    left: -10px;
+    top: -14px;
+    background: no-repeat url(../images/monster/轻步兵/轻步兵_dead.png);
+}
+
+.NpcPangde
+{
+    width: 36px;
+    height: 42px;
+    position: absolute;
+    visibility: visible;
+    left: 500px;
+    top: 4700px;
+}
+.NpcPangde p.walk
+{
+    width: 46px;
+    height: 51px;
+    position: absolute;
+    left: -6px;
+    top: -10px;
+    background: no-repeat url(../images/monster/庞德/庞德.png);
+}
+.NpcPangde p.attack
+{
+    width: 60px;
+    height: 63px;
+    position: absolute;
+    left: -15px;
+    top: -14px;
+    background: no-repeat url(../images/monster/庞德/庞德_melee.png);
+}
+.NpcPangde p.dead
+{
+    width: 45px;
+    height: 63px;
+    position: absolute;
+    left: -10px;
+    top: -14px;
+    background: no-repeat url(../images/monster/庞德/庞德_dead.png);
+}
+
+
+.NpcSunshangxiang
+{
+    width: 36px;
+    height: 42px;
+    position: absolute;
+    visibility: visible;
+    left: 500px;
+    top: 4700px;
+}
+.NpcSunshangxiang p.walk
+{
+    width: 46px;
+    height: 51px;
+    position: absolute;
+    left: -6px;
+    top: -10px;
+    background: no-repeat url(../images/monster/孙尚香/孙尚香.png);
+}
+.NpcSunshangxiang p.attack
+{
+    width: 60px;
+    height: 63px;
+    position: absolute;
+    left: -15px;
+    top: -14px;
+    background: no-repeat url(../images/monster/孙尚香/孙尚香_melee.png);
+}
+
+.NpcSunshangxiang p.dead
+{
+    width: 45px;
+    height: 63px;
+    position: absolute;
+    left: -10px;
+    top: -14px;
+    background: no-repeat url(../images/monster/孙尚香/孙尚香_dead.png);
+}
+
+.NpcXiahoudun
+{
+    width: 36px;
+    height: 42px;
+    position: absolute;
+    visibility: visible;
+    left: 500px;
+    top: 4700px;
+}
+.NpcXiahoudun p.walk
+{
+    width: 46px;
+    height: 51px;
+    position: absolute;
+    left: -6px;
+    top: -10px;
+    background: no-repeat url(../images/monster/夏侯敦/夏侯敦.png);
+}
+.NpcXiahoudun p.attack
+{
+    width: 60px;
+    height: 63px;
+    position: absolute;
+    left: -15px;
+    top: -14px;
+    background: no-repeat url(../images/monster/夏侯敦/夏侯敦_melee.png);
+}
+
+.NpcXiahoudun p.dead
+{
+    width: 45px;
+    height: 63px;
+    position: absolute;
+    left: -10px;
+    top: -14px;
+    background: no-repeat url(../images/monster/夏侯敦/夏侯敦_dead.png);
+}
+.NpcZhanghe
+{
+    width: 36px;
+    height: 42px;
+    position: absolute;
+    visibility: visible;
+    left: 500px;
+    top: 4700px;
+}
+.NpcZhanghe p.walk
+{
+    width: 46px;
+    height: 51px;
+    position: absolute;
+    left: -6px;
+    top: -10px;
+    background: no-repeat url(../images/monster/张合/张合.png);
+}
+.NpcZhanghe p.attack
+{
+    width: 60px;
+    height: 63px;
+    position: absolute;
+    left: -15px;
+    top: -14px;
+    background: no-repeat url(../images/monster/张合/张合_melee.png);
+}
+.NpcZhanghe p.dead
+{
+    width: 45px;
+    height: 63px;
+    position: absolute;
+    left: -10px;
+    top: -14px;
+    background: no-repeat url(../images/monster/张合/张合_dead.png);
+}
+.NpcLuxun
+{
+    width: 36px;
+    height: 42px;
+    position: absolute;
+    visibility: visible;
+    left: 500px;
+    top: 4700px;
+}
+.NpcLuxun p.walk
+{
+    width: 46px;
+    height: 51px;
+    position: absolute;
+    left: -6px;
+    top: -10px;
+    background: no-repeat url(../images/monster/陆逊/陆逊.png);
+}
+.NpcLuxun p.attack
+{
+    width: 60px;
+    height: 63px;
+    position: absolute;
+    left: -15px;
+    top: -14px;
+    background: no-repeat url(../images/monster/陆逊/陆逊_melee.png);
+}
+.NpcLuxun p.dead
+{
+    width: 45px;
+    height: 63px;
+    position: absolute;
+    left: -10px;
+    top: -14px;
+    background: no-repeat url(../images/monster/陆逊/陆逊_dead.png);
+}
+
+.NpcCaocao
+{
+    width: 36px;
+    height: 42px;
+    position: absolute;
+    visibility: visible;
+    left: 500px;
+    top: 4700px;
+}
+.NpcCaocao p.walk
+{
+    width: 46px;
+    height: 51px;
+    position: absolute;
+    left: -6px;
+    top: -10px;
+    background: no-repeat url(../images/monster/曹操骑马/曹操骑马.png);
+}
+.NpcCaocao p.attack
+{
+    width: 60px;
+    height: 63px;
+    position: absolute;
+    left: -15px;
+    top: -14px;
+    background: no-repeat url(../images/monster/曹操骑马/曹操骑马_melee.png);
+}
+
+.NpcCaocao p.dead
+{
+    width: 45px;
+    height: 63px;
+    position: absolute;
+    left: -10px;
+    top: -14px;
+    background: no-repeat url(../images/monster/曹操骑马/曹操骑马_dead.png);
+}

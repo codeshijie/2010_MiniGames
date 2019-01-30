@@ -1,0 +1,34 @@
+﻿*
+{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+
+}
+p ,div{ overflow:hidden;}
+
+body{ background:yellow; padding-top:30px;}
+.cleardive{ height:0px; overflow:hidden; clear:both;}
+.pixel{overflow:hidden;  margin:0px auto; display:block;}
+.block{ background:#000;}
+.white{background:#fff;}
+
+.blockie67{ width:34px; height:34px;background:url(block.png);_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="block.png" ,sizingMethod="crop");}
+.whiteie67{width:34px; height:34px;background:url(white.png);_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="white.png" ,sizingMethod="crop");}
+
+
+.board{ width:615px; height:615px; overflow:hidden; padding:4px; background:#DDBEA2; border:3px solid #9E8871; margin:0px auto; }
+.elementbg{width:41px; height:41px; overflow:hidden; float:left; cursor:pointer; }
+.elementbg .line{width:41px; height:41px;  }
+.elementbg .line .line1{height:20px; width:1px; margin:0px auto;background:#3B2510;clear:both;}
+.elementbg .line .line11{height:20px; width:1px;  margin:0px auto;clear:both; }
+.elementbg .line .line2{height:1px;width:20px; float:left;background:#3B2510;}
+.elementbg .line .line22{height:1px;width:20px; float:left;}
+.elementbg .line .line3{height:1px;width:1px; background:#3B2510; float:left;}
+
+.element{width:34px; height:34px;  position:relative; top:-38px; margin:0px auto;  }
+
+.init{ position:absolute; left:0px; top:5px;}
+.init li{ float:left;list-style-position:inside; margin-left:20px; font-weight:900; cursor:pointer; list-style-type:disc ; padding-left:20px;}
+
+ 

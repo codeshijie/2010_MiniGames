@@ -1,0 +1,15 @@
+D:\Documents\Desktop\五子棋\五子棋\bin\五子棋.dll
+D:\Documents\Desktop\五子棋\五子棋\bin\五子棋.pdb
+D:\Documents\Desktop\五子棋\五子棋\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents\Desktop\五子棋\五子棋\obj\Debug\五子棋.dll
+D:\Documents\Desktop\五子棋\五子棋\obj\Debug\五子棋.pdb
+D:\Documents\Desktop\相信自己\相信自己\五子棋\五子棋\bin\五子棋.dll
+D:\Documents\Desktop\相信自己\相信自己\五子棋\五子棋\bin\五子棋.pdb
+D:\Documents\Desktop\相信自己\相信自己\五子棋\五子棋\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents\Desktop\相信自己\相信自己\五子棋\五子棋\obj\Debug\五子棋.dll
+D:\Documents\Desktop\相信自己\相信自己\五子棋\五子棋\obj\Debug\五子棋.pdb
+E:\相信自己\五子棋\五子棋\bin\五子棋.dll
+E:\相信自己\五子棋\五子棋\bin\五子棋.pdb
+E:\相信自己\五子棋\五子棋\obj\Debug\ResolveAssemblyReference.cache
+E:\相信自己\五子棋\五子棋\obj\Debug\五子棋.dll
+E:\相信自己\五子棋\五子棋\obj\Debug\五子棋.pdb

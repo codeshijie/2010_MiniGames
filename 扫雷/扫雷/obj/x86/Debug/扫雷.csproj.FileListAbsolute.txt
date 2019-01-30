@@ -1,0 +1,22 @@
+e:\扫雷\扫雷\bin\Debug\扫雷.exe
+e:\扫雷\扫雷\bin\Debug\扫雷.pdb
+e:\扫雷\扫雷\obj\x86\Debug\ResolveAssemblyReference.cache
+e:\扫雷\扫雷\obj\x86\Debug\扫雷.Form1.resources
+e:\扫雷\扫雷\obj\x86\Debug\扫雷.Properties.Resources.resources
+e:\扫雷\扫雷\obj\x86\Debug\GenerateResource.read.1.tlog
+e:\扫雷\扫雷\obj\x86\Debug\GenerateResource.write.1.tlog
+e:\扫雷\扫雷\obj\x86\Debug\扫雷.exe
+e:\扫雷\扫雷\obj\x86\Debug\扫雷.pdb
+e:\扫雷\扫雷\obj\x86\Debug\扫雷.Field.resources
+E:\相信自己\扫雷\扫雷\obj\x86\Debug\扫雷.exe
+E:\相信自己\扫雷\扫雷\obj\x86\Debug\扫雷.pdb
+E:\相信自己\扫雷       framework4.0\扫雷\obj\x86\Debug\扫雷.exe
+E:\相信自己\扫雷       framework4.0\扫雷\obj\x86\Debug\扫雷.pdb
+E:\相信自己\扫雷       framework4.0\扫雷\bin\Debug\扫雷.exe
+E:\相信自己\扫雷       framework4.0\扫雷\bin\Debug\扫雷.pdb
+E:\相信自己\扫雷       framework4.0\扫雷\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\相信自己\扫雷       framework4.0\扫雷\obj\x86\Debug\扫雷.Field.resources
+E:\相信自己\扫雷       framework4.0\扫雷\obj\x86\Debug\扫雷.Form1.resources
+E:\相信自己\扫雷       framework4.0\扫雷\obj\x86\Debug\扫雷.Properties.Resources.resources
+E:\相信自己\扫雷       framework4.0\扫雷\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\相信自己\扫雷       framework4.0\扫雷\obj\x86\Debug\GenerateResource.write.1.tlog

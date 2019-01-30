@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="css/StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <link href="css/monsterSheetConfig.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.1.js"></script>
+
+    <script type="text/javascript" src="js/monsterConfig.js"></script>
+
+    <script type="text/javascript" src="js/action.js"></script>
+
+    <script type="text/javascript" src="js/map.js"></script>
+
+    <script type="text/javascript" src="js/monsterAction.js"></script>
+
+    <script type="text/javascript" src="js/attackAlgorithm.js"></script>
+
+    <script src="js/Keyboard.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <div id='map'>
+        <div id='swordsMan'>
+            <p class="walk">
+            </p>
+            <p class="attack">
+            </p>
+            <p class="dead">
+            </p>
+        </div>
+    </div>
+    <div class='flbg'>
+    </div>
+    <div class="blood">
+        <span></span>
+    </div>
+    <div class="magic">
+        <span></span>
+    </div>
+
+    <script>
+        alert("操作说明：\r\n    wsad控制上下左右\r\n    鼠标左右键控制技能");
+        $(function() {
+            $("#swordsMan").data(
+                {
+                    Direction: 0, //人物面向 0 1 2 3
+                    Animation: 0,
+                    width: 5, //左右步宽
+                    height: 5, //上下步宽
+                    WalkKeydownValid: true, //行走按键有效
+                    Walk: {
+                        PositionList: [
+                        [[-0, -6], [-50, -6], [-96, -6], [-144, -6]],
+                        [[-0, -70], [-50, -70], [-96, -70], [-144, -70]],
+                        [[-2, -135], [-50, -135], [-96, -135], [-144, -135]],
+                        [[-0, -199], [-50, -199], [-96, -199], [-144, -199]]],
+                        WalkFrequency: 100  //行走按键频率
+                    },
+                    AttackKeydownValid: true, //攻击按键有效
+                    Attack: {
+                        PositionList: [
+                        [[-0, 0], [-65, -1], [-126, 0], [-194, -5]],
+                         [[-0, -64], [-65, -64], [-126, -64], [-194, -64]],
+                        [[-0, -128], [-65, -128], [-132, -128], [-194, -128]],
+                        [[-0, -194], [-65, -191], [-128, -190], [-194, -194]]],
+                        AttackFrequency: 100, //普攻按键频率
+                        AttackLength: 30, //普攻范围
+                        Lethality: 20,
+                        AttackMagicFrequency: 600, //魔法按键频率
+                        AttackMagicLength: 80, //魔法攻击范围
+                        AttackMagicLethality: 5
+                    },
+                    Blood: 280,
+                    Magic: 280
+                })
+
+
+            var element = $("#swordsMan");
+
+            $(document).scrollTop($("#swordsMan").offset().top - $(window).height() / 2);
+            $("#swordsMan").Keyboard.action();
+            $("#swordsMan").Keyboard.keydown(3);
+            setTimeout('$("#swordsMan").Keyboard.keyup(3)', 1000);
+            setInterval(function() { $(document).map.mapMove($("#swordsMan")) }, 10);
+            $(document).map.Npc.Create($("#swordsMan"));
+
+        });
+
+        $(document).bind('keydown', function(event) {
+
+            switch (event.keyCode) {
+                case 65: $("#swordsMan").Keyboard.keydown(1); break;
+                case 68: $("#swordsMan").Keyboard.keydown(2); break;
+                case 87: $("#swordsMan").Keyboard.keydown(3); break;
+                case 83: $("#swordsMan").Keyboard.keydown(0); break;
+
+
+            }
+        });
+        $(document).bind('keyup', function(event) {
+
+            switch (event.keyCode) {
+                case 65: $("#swordsMan").Keyboard.keyup(1); break;
+                case 68: $("#swordsMan").Keyboard.keyup(2); break;
+                case 87: $("#swordsMan").Keyboard.keyup(3); break;
+                case 83: $("#swordsMan").Keyboard.keyup(0); break;
+
+
+            }
+        });
+        $(document).bind('mousedown', function(event) {
+            switch (event.which) {
+                case 1: $("#swordsMan").action.attack($("#swordsMan")); break;
+                case 3: $("#swordsMan").action.attackMagic($("#swordsMan")); break;
+
+            }
+        });
+
+
+        $(document).bind('contextmenu', function(event) {
+            event.preventDefault();
+
+        });
+
+        
+      
+    </script>
+
+</body>
+</html>
